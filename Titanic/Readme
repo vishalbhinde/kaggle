@@ -1,4 +1,4 @@
-# Kaggle Titanic
+## Kaggle Titanic
 
 This repository presents my submission in the [Titanic: Machine Learning from Disaster, Kaggle Competition](https://www.kaggle.com/c/titanic).
 In this competition, the goal is to perform a 2-label classification problem>: predict which passengers survived the tragedy. [Kaggle](https://www.kaggle.com) offers two datasets. One training (the labels are known) and one testing (the labels are unknown). The goal is to submit a file with our predicted labels saying who survived or not. 
