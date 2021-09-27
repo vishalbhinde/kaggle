@@ -2,11 +2,15 @@
 
 This repository presents my submission in the [Digit Recognizer, Kaggle Competition](https://www.kaggle.com/c/digit-recognizer).
 
-MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, 
+this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. 
+As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
 In this competition, your goal is to correctly identify digits from a dataset of tens of thousands of handwritten images.
 
 # A Jupyter Notebook Exploring and Educating on Basic ML Via Keras & Mnist 
 
-As the title suggests. This is a jupyter notebook that utilizes the tensorflow Keras library to explore the mnist dataset. It is meant to be useful as a way to explore the ease in which Keras can create models, as well as how to visualize predictions and raw data. It has high accuracy and runs under 3 minutes with Kagle GPU.
+As the title suggests. This is a jupyter notebook that utilizes the tensorflow Keras library to explore the mnist dataset. 
+It is meant to be useful as a way to explore the ease in which Keras can create models, as well as how to visualize predictions and raw data. 
+It has high accuracy and runs under 3 minutes with Kagle GPU.
 The icing is the confusion_matrix plot
