@@ -1,9 +1,9 @@
 # Kaggle Titanic
 
-This repository presents my submission in the [Titanic: Machine Learning from Disaster, Kaggle Competition](https://www.kaggle.com/c/titanic). <br>
-In this competition, the <b>goal</b> is to perform a 2-label <b>classification problem</b>: predict which <b>passengers survived</b> the tragedy. <br> [Kaggle](https://www.kaggle.com) offers two datasets. One training (the labels are known) and one testing (the labels are unknown). The goal is to submit a file with our predicted labels saying who survived or not. <br>
+This repository presents my submission in the [Titanic: Machine Learning from Disaster, Kaggle Competition](https://www.kaggle.com/c/titanic).
+In this competition, the goal is to perform a 2-label classification problem>: predict which passengers survived the tragedy. [Kaggle](https://www.kaggle.com) offers two datasets. One training (the labels are known) and one testing (the labels are unknown). The goal is to submit a file with our predicted labels saying who survived or not. 
 
-We have access to a bunch of 9 features (numerical, text, categorical). The <b>big challenge</b> with this competition is the size of the data we have. The <b>training set</b> is composed of only <b>891 samples</b>. The testing set is composed of 418 samples. <br>Therefore, the main issue is to design an algorithm which generalizes enough in order to avoid <b>over-fitting</b>. To do so, a bunch of features is generated. Then, an ensemble modeling method with voting is used in order to get the most generalized model.<br><br>
+We have access to a bunch of 9 features (numerical, text, categorical). The big challenge with this competition is the size of the data we have. The training set is composed of only 891 samples. The testing set is composed of 418 samples. Therefore, the main issue is to design an algorithm which generalizes enough in order to avoid over-fitting. To do so, a bunch of features is generated. Then, an ensemble modeling method with voting is used in order to get the most generalized model.
 
 This is a multi-label classification, with 2 labels:
 
