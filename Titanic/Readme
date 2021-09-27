@@ -1,0 +1,37 @@
+# Kaggle Titanic
+
+This repository presents my submission in the [Titanic: Machine Learning from Disaster, Kaggle Competition](https://www.kaggle.com/c/titanic). <br>
+In this competition, the <b>goal</b> is to perform a 2-label <b>classification problem</b>: predict which <b>passengers survived</b> the tragedy. <br> [Kaggle](https://www.kaggle.com) offers two datasets. One training (the labels are known) and one testing (the labels are unknown). The goal is to submit a file with our predicted labels saying who survived or not. <br>
+
+We have access to a bunch of 9 features (numerical, text, categorical). The <b>big challenge</b> with this competition is the size of the data we have. The <b>training set</b> is composed of only <b>891 samples</b>. The testing set is composed of 418 samples. <br>Therefore, the main issue is to design an algorithm which generalizes enough in order to avoid <b>over-fitting</b>. To do so, a bunch of features is generated. Then, an ensemble modeling method with voting is used in order to get the most generalized model.<br><br>
+
+This is a multi-label classification, with 2 labels:
+
+- 0: passenger did not survive
+- 1: passenger survived
+
+[Kaggle](https://www.kaggle.com) offers 2 datasets:
+- One Training set: 891 passengers whose label is known
+- One Test set (TS0): 418 passengers whose label is unknown
+
+Goal: For each passenger, predict the label (0 or 1).
+
+The evaluation metric is accuracy score. 
+
+The project is decomposed in 3 parts:
+
+The framework of this notebook is:
+- Preliminary Work:
+    - General Exploration
+    - NaN values
+    - Feature Exploration
+- Analysis of the features
+    - Categorical and Integer Numerical
+    - Numerical
+    - Text
+- Feature Engineering
+- Modeling
+    - Simple Models & Selection
+    - Hyper-Parameters Optimization 
+    - Ensemble Modeling
+- Submission
